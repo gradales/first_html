@@ -1,0 +1,138 @@
+<html>
+<head>
+	<title>Моя первая страница</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<style>
+                        * {
+                                box-sizing: border-box;
+                                padding: 0;
+                                margin: 0;
+                        }
+
+                        body {
+                                font-family: sans-serif;
+                                font-size: 20px;
+                                -webkit-font-smoothing: antialiased;
+                        }
+
+                        a {
+                                color: #2f79ff;
+                                text-decoration: none;
+                        }
+
+                        .pic {text-align: center};
+
+                        a:hover {
+                                text-decoration: underline;
+                        }
+
+                        .stack {
+                                width: 70%;
+                                max-width: 1150px;
+                                margin: 25px 0 150px 25px;
+                                display: flex;
+                                align-content: flex-start;
+                        }
+
+                        #caddy {
+                                max-width: 175px;
+                                margin-bottom: 75px;
+                        }
+
+                        #caddy .caddy-color {
+                                fill: #005e7e;
+                        }
+
+                        h2 {
+                                font-size: 28px;
+                                margin-top: 1.5em;
+                                margin-left: 1em
+                        }
+
+                        p,
+                        ol,
+                        ul {
+                                color: #333;
+                                line-height: 1.5em;
+                        }
+
+                        p {
+                                margin: 1.5em 0;
+                                margin-left: 1em
+                        }
+
+                        ol,
+                        ul {
+                                margin: .5em 0 .5em 2em;
+                        }
+
+                        ol li,
+                        ul li {
+                                margin-left: 1em;
+                                margin-bottom: .5em;
+                        }
+
+                        li ol {
+                                list-style-type: lower-alpha;
+                        }
+
+                        code {
+                                color: #000;
+                                font-family: Menlo, monospace;
+                                background: #f0f0f0;
+                                border-radius: 2px;
+                                padding: 4px 8px;
+                                font-size: 90%;
+                        }
+
+                        .warn {
+                                color: #dd0000;
+                        }
+
+                        #disclaimer {
+                                font-size: 14px;
+                                margin-top: 20px;
+                                display: inline-block;
+                                border-top: 1px solid #ccc;
+                                padding: 20px;
+                        }
+
+                                #caddy {
+                                        margin-bottom: 25px;
+                                }
+                        }
+                </style>
+</head>
+<body>
+	<h2>
+		Моя первая интернет страничка успешна создана!
+	</h2>
+
+	<p>
+		Как же мы это сделали? Давайте рассмотрим по порядку:
+	</p>
+
+	<ol>
+		<li> На <a href="https://www.digitalocean.com/"> Digital Ocean</a> сделали сервер под ubuntu 18.04 (LTS). </li>
+
+		<li> За несколько простых команд подняли веб-сервер с использованием <a href="https://caddyserver.com/"> Caddy</a>. </li>
+
+		<li> Перенесли все необходимые файлы для нашего сайта на удаленный сервер, поправили конфиг файлы Caddy и запустили наш веб-сервер командой
+			<code>caddy run</code>. </li>
+
+		<li> Все готово! </li>
+	</ol>
+
+        <p style="text-align: center;">
+                <img src="fallout_boy.png" width="400" height="300" align="middle">
+        </p>
+
+        <p>
+                <b class="warn">P.S.</b> Еще много чего можно сделать, но пока не требуется 😁
+        </p>
+
+
+</body>
+</html>
